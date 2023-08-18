@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="&lt;bean id=&quot;guitar&quot; class=&quot;com.anamika.producer.Guitar&quot;&gt;&lt;/bean&gt;"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="&lt;bean id=&quot;guitar&quot; class=&quot;com.anamika.producer.Guitar&quot;&gt;&lt;/bean&gt;"/>
+			<item value="&#x0D;&#x0A;&#x0D;&#x0A;&lt;bean id=&quot;guitar&quot; class=&quot;com.anamika.producer.Guitar&quot;&gt;&lt;/bean&gt;&#x0D;&#x0A;&lt;bean id=&quot;instrument&quot; class=&quot;com.anamika.producer.Tabla&quot;&gt;&lt;/bean&gt;&#x0D;&#x0A;&lt;bean id=&quot;drum&quot; class=&quot;com.anamika.producer.Drum&quot;&gt;&lt;/bean&gt;&#x0D;&#x0A;&#x0D;&#x0A;&lt;bean id=&quot;guitarist&quot; class=&quot;com.anamika.producer.Instrumentalist&quot; autowire=&quot;byName&quot;&gt;"/>
+			<item value="song"/>
+		</list>
+		<list key="replacehistory">
+			<item value="songs"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="549"/>
+		<item key="DIALOG_Y_ORIGIN" value="117"/>
+		<item key="DIALOG_WIDTH" value="284"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

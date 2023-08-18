@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="SMS1" class="com.anamika.producer.SMS" init-method="customInitForBean1" destroy-method="customDestroyForBean1" scope="prototype" lazy-init="false">
+<property name="senderNo" value="1234567891"></property>
+<property name="receiverNo" value="1987654321"></property>
+</bean>
+
+<bean id="SMS2" class="com.anamika.producer.SMS" init-method="customInitForBean2" destroy-method="customDestroyForBean2" lazy-init="true">
+<property name="senderNo" value="1234567891"></property>
+<property name="receiverNo" value="1987654321"></property>
+</bean>
+
+<!-- <bean id="message2" class="com.anamika.producer.Mail">
+<constructor-arg name="senderMail" value="sender123@gmail.com"></constructor-arg>
+<constructor-arg name="receiverMail" value="receiver123@gmail.com"></constructor-arg>
+</bean>-->
+
+<bean id="commonInit" class="com.anamika.producer.InitProcessForAllBeans"></bean>
+
+</beans>

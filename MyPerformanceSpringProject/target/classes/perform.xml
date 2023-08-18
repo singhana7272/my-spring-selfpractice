@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ <bean id="edsheeran" class="com.anamika.producer.Singer">
+<constructor-arg name="song" value="Antisocial"></constructor-arg>
+</bean>
+
+<bean id="Joker" class="com.anamika.producer.Juggler">
+<property name="balls" value="5"></property>
+</bean>
+
+<bean id="michaeljackson" class="com.anamika.producer.Dancer">
+<constructor-arg name="style" value="moonwalk"></constructor-arg>
+</bean>
+
+
+<bean id="guitar" class="com.anamika.producer.Guitar"></bean>
+<bean id="tabla" class="com.anamika.producer.Tabla"></bean>
+<bean id="drum" class="com.anamika.producer.Drum"></bean>
+
+<bean id="guitarist" class="com.anamika.producer.Instrumentalist">
+<property name="instrument" ref="guitar"></property>
+</bean> 
+</beans>

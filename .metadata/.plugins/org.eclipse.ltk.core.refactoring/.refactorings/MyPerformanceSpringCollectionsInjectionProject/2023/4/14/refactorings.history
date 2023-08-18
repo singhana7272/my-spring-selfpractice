@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Dancer.java&apos; to &apos;MyPerformanceSpringCollectionsInjectionProject/src/com.anamika.producer&apos;&#x0D;&#x0A;- Original project: &apos;MyPerformanceSpringCollectionsInjectionProject&apos;&#x0D;&#x0A;- Destination element: &apos;MyPerformanceSpringCollectionsInjectionProject/src/com.anamika.producer&apos;&#x0D;&#x0A;- Original element: &apos;com.anamika.producer.Dancer.java&apos;" description="Copy compilation unit" destination="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.producer" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.producer{Dancer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1680973796849" units="1" version="1.0"/>
+</session>

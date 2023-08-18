@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=MyDatabaseIOCProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.producer{Connection.java[Connection" modifiers="513" timestamp="1680898030079"/>
+    <typeInfo handle="=MyPerformanceSpringProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.producer{Instrument.java[Instrument" modifiers="513" timestamp="1680964571199"/>
+    <typeInfo handle="=MyPerformanceSpringProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.producer{Performer.java[Performer" modifiers="513" timestamp="1680962913073"/>
+    <typeInfo handle="=MyPerformanceSpringLifecycleProject/C:\/Users\/pc\/.m2\/repository\/org\/springframework\/spring-beans\/5.3.10\/spring-beans-5.3.10.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-beans=/=/maven.version=/5.3.10=/=/maven.scope=/compile=/&lt;org.springframework.beans.factory.config(BeanPostProcessor.class[BeanPostProcessor" modifiers="1537" timestamp="1687896244673"/>
+    <typeInfo handle="=MyPerformanceMiscSpringProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.demo{Employee.java[Employee" modifiers="513" timestamp="1687339454050"/>
+</typeInfoHistroy>

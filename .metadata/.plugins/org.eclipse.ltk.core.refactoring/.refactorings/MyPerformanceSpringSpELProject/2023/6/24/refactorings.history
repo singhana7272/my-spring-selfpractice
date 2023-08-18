@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.anamika.demo.DummyCircle.java&apos; to &apos;Circle.java&apos;&#x0D;&#x0A;- Original project: &apos;MyPerformanceSpringSpELProject&apos;&#x0D;&#x0A;- Original element: &apos;com.anamika.demo.DummyCircle.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.anamika.demo.Circle.java&apos;" description="Rename compilation unit &apos;DummyCircle.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.anamika.demo{DummyCircle.java" name="Circle.java" references="false" stamp="1686689557545" version="1.0"/>
+</session>

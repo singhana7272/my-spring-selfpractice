@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="edsheeran" class="com.anamika.producer.Singer">
+<property name="songs">
+<set>
+<value>Shape of you</value>
+<value>Beautiful People</value>
+<value>Antisocial</value>
+</set>
+</property>
+</bean>
+
+<bean id="Joker" class="com.anamika.producer.Juggler">
+<property name="balls" value="5"></property>
+</bean>
+
+<bean id="michaeljackson" class="com.anamika.producer.Dancer">
+<constructor-arg name="styles">
+<list>
+<value>Western</value>
+<value>Hip Hop</value>
+<value>classical</value>
+<value>Hip Hop</value>
+</list>
+</constructor-arg>
+</bean>
+
+<bean id="modifiedDancer" class="com.anamika.producer.ModifiedDancer">
+<property name="songStyles">
+<props>
+<prop key="Shape of you">Western</prop>
+<prop key="Beautiful People">Hip Hop</prop>
+<prop key="Antisocial">classical</prop>
+</props>
+</property>
+</bean>
+<bean id="guitar" class="com.anamika.producer.Guitar"></bean>
+<bean id="tabla" class="com.anamika.producer.Table"></bean>
+<bean id="drum" class="com.anamika.producer.Drum"></bean>
+
+<bean id="modifiedInstrumentalist" class="com.anamika.producer.ModifiedInstrumentalist">
+<property name="songInstrument">
+<map>
+<entry key="Shape of you" value-ref="guitar"></entry>
+<entry key="Beautiful People" value-ref="tabla"></entry>
+<entry key="Antisocial" value-ref="guitar"></entry>
+</map>
+</property>
+</bean>
+
+<bean id="guitarist" class="com.anamika.producer.Instrumentalist">
+<property name="instrument" ref="guitar"></property>
+</bean>
+
+
+</beans>

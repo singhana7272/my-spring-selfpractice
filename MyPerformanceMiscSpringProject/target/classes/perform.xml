@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ <!--  <bean id="edsheeran" class="com.anamika.producer.Singer">
+<constructor-arg name="song" value="Antisocial"></constructor-arg>
+</bean>-->
+
+<bean id="juggler1" class="com.anamika.producer.Juggler" init-method="customInitForBean1" destroy-method="customDestroyForBean1" scope="prototype" lazy-init="false">
+<property name="balls" value="5"></property>
+</bean>
+
+<bean id="juggler2" class="com.anamika.producer.Juggler" init-method="customInitForBean2" destroy-method="customDestroyForBean2" lazy-init="true">
+<property name="balls" value="4"></property>
+</bean>
+
+  
+<bean id="michaeljackson" class="com.anamika.producer.Dancer" scope="">
+<property name="style" value="moonwalk"></property>
+</bean>
+ 
+ <bean id="commonInit" class="com.anamika.producer.InitProcessForAllBeans">
+ </bean>
+ 
+ <bean id="empFactory" class="com.anamika.demo.EmployeeFactory"></bean>
+ <bean id="salaried" class="com.anamika.demo.SalariedEmployee" factory-bean="empFactory" factory-method="getSalariedEmployee">
+ </bean>
+ 
+ <bean id="waged" class="com.anamika.demo.WagedEmployee" factory-bean="empFactory" factory-method="getWagedEmployee">
+ </bean>
+ 
+ 
+</beans>

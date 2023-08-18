@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="MyPerformanceConsumerSpringProject"/>
+<aop-project name="MyDatabaseIOCProject"/>
+<aop-project name="MyPerformanceSpringProject"/>
+<aop-project name="MyMessageSpringIOCProject"/>
+<aop-project name="MyPerformanceSpringpAndcNamespaceProject"/>
+<aop-project name="MyPerformanceSpringJavaConfigurationProject"/>
+<aop-project name="MyMessageJavaConfigurationSpringProject"/>
+<aop-project name="MyGreetConsumer"/>
+<aop-project name="MyMessageSpringLifecycleWithJavaConfigProject"/>
+<aop-project name="MyPerformanceSpringSpELProject"/>
+<aop-project name="EmployeeJDBCLayeredAnnotatedConfiguredProjectSpring"/>
+<aop-project name="EmployeeJDBCLayeredProjectSpringIOC"/>
+<aop-project name="MyPerformanceSpringAutoWiringProject"/>
+<aop-project name="MyPerformanceSpringCollectionsInjectionProject"/>
+<aop-project name="EmployeeJDBCLayeredJavaConfigurationSpringProject"/>
+<aop-project name="MyPerformanceSpringLifecycleProject"/>
+<aop-project name="MyPerformanceMiscSpringProject"/>
+<aop-project name="MyPerformanceSpringAnnotationConfigurationProject"/>
+<aop-project name="MyMessageAnnotationConfigurationProject"/>
+<aop-project name="MyMessageSpringLifecycleProject"/>
+</aop-reference-model>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="OracleConnection" class="com.anamika.producer.DBConnection">
+<constructor-arg name="URL" value="Oracle Link"></constructor-arg>
+<constructor-arg name="username" value="anamika"></constructor-arg>
+<constructor-arg name="password" value="Wintel@123"></constructor-arg>
+</bean>
+
+
+<bean id="MySqlConnection" class="com.anamika.producer.DBConnection">
+<property name="URL" value="MySQL Link"></property>
+<property name="username" value="preeti"></property>
+<property name="password" value="Winter@123"></property>
+</bean>
+
+<bean id="empDao" class="com.anamika.producer.EmployeeDao">
+<constructor-arg name="connection" ref="OracleConnection"></constructor-arg>
+</bean>
+
+
+</beans>
